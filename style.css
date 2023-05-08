@@ -179,3 +179,26 @@ header{
 .get-started-button{
 	margin-top: 20px;
 }
+
+.company-section{
+/*	background-color: red;*/
+
+
+}
+
+
+.company-header{
+	color: var(--primary-text-color);
+	margin-block: 30px;
+	text-align: center;
+}
+
+.logos{
+	justify-content: space-between;
+	flex-wrap: warp;
+
+}
+
+.logos img{
+	height: 46px;
+}
