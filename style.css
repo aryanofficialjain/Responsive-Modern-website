@@ -245,3 +245,20 @@ background: url('img/asset 32.png') no-repeat center center/cover;
 
 }
 
+
+
+/*big feature class*/
+
+.big-feature-section{
+	padding: 30px var(--padding-inline-section) 0;
+}
+
+.big-feature-container{
+	gap: 30px;
+}
+
+.feature-text{
+	flex-direction: column;
+	align-items: flex-start;
+	gap: 10px;
+}
