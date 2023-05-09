@@ -317,3 +317,61 @@ background: url('img/asset 32.png') no-repeat center center/cover;
 	left: 20px;
 	color: white;
 }
+
+
+/*cta section*/
+
+
+.cta-section{
+	background-color: var(--primary-text-color);
+	padding: 120px var(--padding-inline-section) 80px;
+}
+
+
+.cta-container{
+	flex-direction: column;
+	gap: 20px;
+	color: white;
+}
+
+.cta-container p{
+	color: white;
+	margin-top: 20px;
+}
+
+
+/*footer section*/
+footer{
+	padding: 80px var(--padding-inline-section) 40px;
+	background-color: whitesmoke;
+
+}
+
+.footer-container{
+		align-items: flex-start;
+		justify-content: space-between;
+
+
+}
+
+.footer-container h2{
+	font-size: 1.5rem;
+}
+
+.footer-logo{
+	width: 20%;
+
+}
+
+.footer-logo img{
+	width: 100%;
+}
+
+.footer-items{
+	flex-direction: column;
+	gap: 20px;
+
+
+}
+
+
