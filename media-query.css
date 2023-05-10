@@ -1,3 +1,33 @@
+/*for tablet screen */
 @media screen and (max-width:990px){
-	
+	.main-nav a i{
+	display: block;
+	margin-right: 20px;
+	font-size: 1.9rem;
+	}
+
+	.nav-links{
+		display: none;
+	}
+
+	.example-area{
+		gap: 10px;
+
+	}
+
+	.example-card{
+		width: calc(50% - 10px);
+		
+		height: 180px;
+	}
+
+	.example-card h3{
+		font-size: 1.2rem;
+	}
+
+	.cta-section{
+		padding: 60px 20px 60px;
+	}
+
+
 }
