@@ -29,6 +29,12 @@
 		padding: 60px 20px 60px;
 	}
 
+	.feature-header{
+		margin-bottom: 40px;
+	}
+
+
+
 
 }
 
@@ -84,16 +90,50 @@
 		flex-direction: column;
 		text-align: center;
 		gap: 50px;
-		align-items: center;
+		align-items: stretch;
 		max-width: 100vw;
 	}
 
 	.footer-logo{
-		width: 100%;
+		width: 80%;
+		margin-inline: auto;
 	}
 
 	.sub-footer-container{
 		flex-direction: column;
 /*		flex-wrap: wrap;*/
+	}
+}
+
+
+/*media query for medium phones*/
+
+@media screen and (max-width:479px){
+	:root{
+
+	--padding-inline-section:10px;
+	}
+	h1{
+		font-size: 2rem;
+
+	}
+	h2{
+		font-size: 1.6rem;
+
+	}
+	h3{
+		font-size: 1.3rem;
+
+	}
+	p{
+		font-size: 1rem;
+
+	}
+	.cta-container{
+		text-align: center;
+	}
+
+	.feature-card{
+		min-width: 100%;
 	}
 }
