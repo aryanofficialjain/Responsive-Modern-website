@@ -7,7 +7,25 @@
 	}
 
 	.nav-links{
-		display: none;
+		position: absolute;
+		left: -100%;
+		top: 100%;
+		background: wheat;
+		width: 100%;
+		padding: 10px 0px 10px 0px;
+		transition: 0.3s ease-in-out;
+	}
+
+	.nav-links ul{
+		flex-direction: column;
+	}
+
+	.nav-links.active{
+		left: 0%;
+	}
+
+	.main-nav{
+		overflow: initial;
 	}
 
 	.example-area{
